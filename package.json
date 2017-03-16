@@ -1,5 +1,5 @@
 {
-  "name": "highlight-overlay",
+  "name": "react-highlight-overlay",
   "version": "1.0.0",
   "description": "A React component to highlight multiple targets by providing a canvas overlay",
   "repository": {
