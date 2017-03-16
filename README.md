@@ -5,7 +5,13 @@ A React component to highlight multiple targets by providing a canvas overlay
 
 # Using
 
-First of all, your `<body>` must have `width` and `height`: **100%**.
+React Highlight Overlay is available as an [npm package](https://www.npmjs.com/package/react-highlight-overlay)
+
+Install it
+
+```
+npm i react-highlight-overlay
+```
 
 Into your project, include Highlight Overlay
 
@@ -23,6 +29,8 @@ render() {
 }
 
 ```
+
+**Note: Your `<body>` must have both `width` and `height` 100%**
 
 
 ## License
