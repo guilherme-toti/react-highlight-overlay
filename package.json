@@ -1,0 +1,49 @@
+{
+  "name": "highlight-overlay",
+  "version": "1.0.0",
+  "description": "A React component to highlight multiple targets by providing a canvas overlay",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guilherme-toti/react-highlight-overlay.git"
+  },
+  "author": "Guilherme Toti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guilherme-toti/react-highlight-overlay/issues"
+  },
+  "homepage": "https://github.com/guilherme-toti/react-highlight-overlay",
+  "keywords": [
+    "react-component",
+    "react"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "test": "mocha --compilers js:babel-register",
+    "lint": "eslint .",
+    "build": "babel src -d lib",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-transform-es2015-modules-amd": "^6.24.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-1": "^6.22.0",
+    "babel-register": "^6.9.0",
+    "chai": "^3.5.0",
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0",
+    "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "react": "^15.4.2"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
