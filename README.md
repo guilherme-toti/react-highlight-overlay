@@ -23,7 +23,7 @@ npm i react-highlight-overlay
 Into your project, include Highlight Overlay
 
 ```
-import HighlightOverlay from 'highlight-overlay';
+import HighlightOverlay from 'react-highlight-overlay';
 ```
 
 Then put it on the top of your `<body>` passing the target(s) class you want
@@ -37,7 +37,12 @@ render() {
 
 ```
 
-**Note: Your `<body>` must have both `width` and `height` 100%**
+> **Note: Your `<body>` must have both `width` and `height` 100%**
+
+
+## Testing
+
+There is no tests yet but i'll create some tests ASAP. 😛 :eyes:
 
 
 ## License
