@@ -1,6 +1,10 @@
 # React Highlight Overlay
 
-A React component to highlight multiple targets by providing a canvas overlay
+A React component to highlight multiple targets by providing a canvas overlay.
+
+Imagine that you need to focus on some component in your application to show it, with **React Highlight Overlay** it's possible and very easy!
+
+**React Highlight Overlay** will create with `<canvas>` a dark transparent overlay on your application, and cut the pieces where you want to focus on.
 
 
 # Example
