@@ -3,6 +3,13 @@
 A React component to highlight multiple targets by providing a canvas overlay
 
 
+# Example
+Using **React Highlight Overlay** with a tour on a real application
+![image](https://cloud.githubusercontent.com/assets/5498874/24042316/3b5a3bf0-0af0-11e7-910b-4419214ec3e9.png)
+
+![image](https://cloud.githubusercontent.com/assets/5498874/24042255/f027a0fa-0aef-11e7-9c1b-0f46dc0af99e.png)
+
+
 # Using
 
 React Highlight Overlay is available as an [npm package](https://www.npmjs.com/package/react-highlight-overlay)
